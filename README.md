@@ -46,7 +46,7 @@ pytest                                           # same tests, plus API tests on
 | Upload validation (extension + magic bytes), FFprobe metadata, FFmpeg audio extraction | ✅ implemented, tested against real FFmpeg |
 | Durable job store, atomic claim, cancel, crash-recovery requeue, idempotent stages | ✅ implemented, tested |
 | Pipeline: transcript + translation + SRT, multi-language | ✅ end-to-end tested with **mock** ASR/translator |
-| FastAPI endpoints + API tests | ⚠️ written, **not run** (deps unavailable in build sandbox) |
+| FastAPI endpoints + API tests | ⚠️ written, not run 
 | Gemini translator | ⚠️ response parsing/validation written; live call **not run** (parsing tests need pydantic) |
 | Whisper ASR adapter | ⚠️ written, **not run** |
 | ADK root agent | ⚠️ written, **not run**; imports must be verified against installed ADK |
